@@ -37,10 +37,8 @@ public class Sketch extends PApplet {
     return -1;
   }
   //Recursive linear search
-  
   public int recursiveLinearSearch(int catNumToFind, int startIndex){
-    //complete this method 
-    
+    //complete this method   
     if(store.length == startIndex){
       return -1;
       }
